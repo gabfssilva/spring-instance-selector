@@ -13,7 +13,7 @@ public interface Service {
 }
 ```
 
-```
+```java
 package com.thedevpiece.sis;
 
 /**
@@ -28,7 +28,7 @@ public class ServiceA implements Service {
 }
 ```
 
-```
+```java
 package com.thedevpiece.sis;
 
 /**
@@ -43,7 +43,7 @@ public class ServiceB implements Service {
 }
 ```
 
-```
+```java
 package com.thedevpiece.sis;
 
 /**
@@ -63,7 +63,7 @@ public class ServiceTypeQualifier extends QualifierLiteral<ServiceType> implemen
 }
 ```
 
-```
+```java
 package com.thedevpiece.sis;
 
 import org.springframework.stereotype.Component;
