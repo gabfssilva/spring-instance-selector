@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.springframework:spring-context:4.2.1.RELEASE'
+    compile 'org.slf4j:slf4j-api:1.7.7'
+
+    testCompile 'org.springframework:spring-test:4.2.1.RELEASE'
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.openjdk.jmh:jmh-core:0.2.1'
+}
